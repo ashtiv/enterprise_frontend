@@ -5,18 +5,24 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='Header-lev1'>
+          <a className='Header-a'><text className='Header-contact'>Contact us</text></a>
+          <nav className='Header-nav'>
+
+            <select className='Nav-dropdown'>
+              <option value="item2" className='Nav-values' selected>Pages</option>
+              <option value="item1" className='Nav-values'>Item 1</option>
+              {/* <div className='Nav-dropdown-dots'>
+                <p className='Nav-dropdown-dots-text'>{'\u2026'}</p>
+              </div> */}
+              {/* three dots not showing */}
+            </select>
+            <div className='Nav-template'>Template</div>
+            <div className='Nav-overview'>Overview</div>
+
+          </nav>
+
+        </div>
       </header>
     </div>
   );

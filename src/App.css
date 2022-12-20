@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: absolute;
+  height: 120px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.Header-lev1 {
+  position: absolute;
+  width: 1120px;
+  height: 50px;
+  left: calc(50% - 1120px/2);
+  top: calc(50% - 50px/2);
+}
+
+.Header-a {
+  box-sizing: border-box;
+
+  /* Auto layout */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 9px 17.6719px 11px 18px;
+
+  position: absolute;
+  width: 108.67px;
+  height: 44px;
+  right: 0px;
+  top: calc(50% - 44px/2);
+
+  background: #1355FF;
+  border: 2px solid #1355FF;
+}
+
+.Header-contact {
+  width: 73px;
+  height: 24px;
+
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+
+  /* identical to box height, or 171% */
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  letter-spacing: -0.28px;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.Header-nav {
+  position: absolute;
+  width: 323.06px;
+  height: 32px;
+  left: 398.47px;
+  top: calc(50% - 32px/2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Nav-dropdown {
+  appearance: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 3px 28.8281px 5px 12px;
+  isolation: isolate;
+
+  position: absolute;
+  width: 81.83px;
+  left: calc(50% - 81.83px/2 + 1.7px);
+  top: 0px;
+  bottom: 0px;
+  border: none;
+  background: none;
+  color: #37456C !important;
+
+}
+
+.Nav-dropdown-dots {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 10px;
+  top: 9px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+
+
+.Nav-values {
+  appearance: none;
+  width: 41px;
+  height: 24px;
+
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.28px;
+
+  color: #37456C !important;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.Nav-dropdown-dots-text {
+  appearance: none;
+  position: absolute;
+  width: 13.93px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+
+  /* identical to box height, or 100% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.28px;
+
+  color: #37456C !important;
+
+}
+
+.Nav-template {
+  position: absolute;
+  width: 62px;
+  height: 24px;
+  left: 238.14px;
+  top: calc(50% - 24px/2 - 1px);
+
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.14px;
+  color: #37456C !important;
+
+
+
+}
+
+.Nav-overview {
+  position: absolute;
+  width: 63px;
+  height: 24px;
+  left: 24px;
+  top: calc(50% - 24px/2 - 1px);
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.14px;
+
+  color: #37456C;
+
+
 }

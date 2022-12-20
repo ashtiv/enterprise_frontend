@@ -75,6 +75,12 @@
   padding: 3px 28.8281px 5px 12px;
   isolation: isolate;
 
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+
   position: absolute;
   width: 81.83px;
   left: calc(50% - 81.83px/2 + 1.7px);
@@ -93,8 +99,15 @@
   right: 10px;
   top: 9px;
 
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+
 
   /* Inside auto layout */
+
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -195,5 +208,35 @@
 
   color: #37456C;
 
+
+}
+
+.Opus-logo {
+  position: absolute;
+  width: 97px;
+  height: 32px;
+  left: calc(50% - 97px/2 - 511.5px);
+  top: calc(50% - 32px/2);
+}
+
+.Opus-logo-inside {
+  position: absolute;
+  width: 97px;
+  height: 32px;
+  left: calc(50% - 97px/2);
+  top: calc(50% - 32px/2);
+
+}
+
+.Opus-logo-inside-logo {
+  /* Vector */
+
+  position: absolute;
+  left: 2.75%;
+  right: 69.76%;
+  top: 8.33%;
+  bottom: 8.34%;
+
+  background: #1355FF;
 
 }

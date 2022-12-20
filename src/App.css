@@ -1,13 +1,5 @@
-body {
-  position: relative;
-  width: 1512px;
-  height: 8811.5px;
-
-  background: #FFFFFF;
-}
-
 .App-header {
-  position: relative;
+  /* position: relative; */
   height: 120px;
   left: 0px;
   right: 0px;
@@ -16,30 +8,37 @@ body {
 }
 
 .Header-lev1 {
-  position: relative;
+  /* position: relative; */
   width: 1120px;
   height: 50px;
-  left: calc(50% - 1120px/2);
-  top: calc(50% - 50px/2);
+  display: flex;
+  flex-direction: row;
+  /* left: calc(50% - 1120px/2); */
+  /* top: calc(50% - 50px/2); */
 }
 
 .Header-a {
   box-sizing: border-box;
-
+  margin-left: 200px;
   /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: flex-start; */
   padding: 9px 17.6719px 11px 18px;
 
-  position: absolute;
-  width: 108.67px;
-  height: 44px;
-  right: 0px;
-  top: calc(50% - 44px/2);
+  /* position: relative; */
+  width: 200.67px;
+  height: 48px;
+  /* right: 0px; */
+  top: calc(50% - 48px/2);
 
   background: #1355FF;
   border: 2px solid #1355FF;
+  /* left: 24px; */
+  /* top: calc(50% - 24px/2 - 1px); */
+
+  /* identical to box height, or 171% */
+
 }
 
 .Header-contact {
@@ -51,12 +50,12 @@ body {
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 14px !important;
-
+  white-space: nowrap;
   /* identical to box height, or 171% */
-  display: flex;
+  /* display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.28px; */
 
   color: #FFFFFF;
 
@@ -68,11 +67,13 @@ body {
 }
 
 .Header-nav {
-  position: relative;
+  /* position: relative; */
   width: 323.06px;
   height: 32px;
-  left: 398.47px;
-  top: calc(50% - 32px/2);
+  /* top: calc(50% - 32px/2); */
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 12px; */
 }
 
 .Nav-dropdown {
@@ -80,7 +81,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 3px 28.8281px 5px 12px;
+  /* padding: 3px 28.8281px 5px 12px; */
   isolation: isolate;
 
   font-family: 'Inter' !important;
@@ -89,11 +90,11 @@ body {
   font-size: 14px !important;
   line-height: 14px !important;
 
-  position: absolute;
+  /* position: relative; */
   width: 81.83px;
-  left: calc(50% - 81.83px/2 + 1.7px);
-  top: 0px;
-  bottom: 0px;
+  /* left: calc(50% - 81.83px/2 + 1.7px); */
+  /* top: 0px; */
+  /* bottom: 0px; */
   border: none;
   background: none;
   color: #37456C !important;
@@ -101,7 +102,7 @@ body {
 }
 
 .Nav-dropdown-dots {
-  position: relative;
+  /* position: relative; */
   width: 14px;
   height: 14px;
   right: 10px;
@@ -152,7 +153,7 @@ body {
 
 .Nav-dropdown-dots-text {
   appearance: none;
-  position: relative;
+  /* position: relative; */
   width: 13.93px;
   height: 14px;
   left: 0px;
@@ -174,11 +175,11 @@ body {
 }
 
 .Nav-template {
-  position: relative;
+  /* position: relative; */
   width: 62px;
   height: 24px;
-  left: 238.14px;
-  top: calc(50% - 24px/2 - 1px);
+  /* left: 238.14px; */
+  /* top: calc(50% - 24px/2 - 1px); */
 
   font-family: 'Inter' !important;
   font-style: normal !important;
@@ -197,11 +198,12 @@ body {
 }
 
 .Nav-overview {
-  position: absolute;
+  /* position: relative; */
   width: 63px;
   height: 24px;
-  left: 24px;
-  top: calc(50% - 24px/2 - 1px);
+  /* left: 24px; */
+  /* top: calc(50% - 24px/2 - 1px); */
+  appearance: none;
 
   font-family: 'Inter';
   font-style: normal;
@@ -213,14 +215,14 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: -0.14px;
-
   color: #37456C;
-
+  border: none;
+  background: none;
 
 }
 
 .Opus-logo {
-  position: absolute;
+  /* position: relative; */
   width: 97px;
   height: 32px;
   left: calc(50% - 97px/2 - 511.5px);
@@ -228,7 +230,7 @@ body {
 }
 
 .Opus-logo-inside {
-  position: absolute;
+  /* position: relative; */
   width: 97px;
   height: 32px;
   left: calc(50% - 97px/2);
@@ -239,7 +241,7 @@ body {
 .Opus-logo-inside-logo {
   /* Vector */
 
-  position: absolute;
+  /* position: relative; */
   left: 2.75%;
   right: 69.76%;
   top: 8.33%;
@@ -250,7 +252,7 @@ body {
 }
 
 .body-1 {
-  position: absolute;
+  /* position: relative; */
   width: 1512px;
   height: 6723px;
   left: 0px;
@@ -261,13 +263,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 96px 196px;
+  /* padding: 96px 196px; */
 
-  position: absolute;
+  /* position: relative; */
   width: 1512px;
   height: 352px;
-  left: 0px;
-  top: 0px;
 
   background: #FFFFFF;
 }
@@ -314,8 +314,36 @@ body {
   flex-grow: 0;
 }
 
+.body-box3 {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 160px;
+  /* Inside auto layout */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.body-box4 {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 160px;
+  /* Inside auto layout */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
 .body-box-number {
-  position: relative;
+  /* position: relative; */
   width: 133px;
   height: 48px;
   /* left: calc(50% - 133px/2 - 0.27px); */
@@ -336,10 +364,11 @@ body {
   letter-spacing: -1.2px;
   margin: auto;
   color: #061237;
+  white-space: nowrap;
 }
 
 .body-box-terms {
-  position: relative;
+  /* position: relative; */
   width: 200px;
   height: 32px;
   /* left: calc(50% - 105px/2 + 0.17px); */
@@ -359,10 +388,11 @@ body {
   letter-spacing: -0.16px;
 
   color: #061237;
+  white-space: nowrap;
 }
 
 .body-box-description {
-  position: relative;
+  /* position: relative; */
   width: 127px;
   height: 32px;
   /* left: calc(50% - 127px/2 + 0.16px); */
@@ -382,4 +412,134 @@ body {
   letter-spacing: -0.16px;
 
   color: #67718E;
+  white-space: nowrap;
+}
+
+.Video {
+  width: 992px;
+  height: 908px;
+  left: calc(50% - 992px/2);
+  top: 448px;
+}
+
+.Video-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* padding: 19px 858px 21px 32px; */
+  isolation: isolate;
+
+  /* width: 992px; */
+  height: 64px;
+  left: 0px;
+  top: 0px;
+}
+
+.Video-pic {
+  width: 40px;
+  height: 40px;
+
+
+  background: #F7F9FC;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.Video-text {
+  /* VIDEO TITLE */
+
+  width: 102px;
+  height: 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #67718E;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.Video-heading {
+  height: 550px;
+  left: 0px;
+  top: 208px;
+}
+
+.Video-heading-text {
+  width: 721px;
+  height: 56px;
+  left: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 56px;
+
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.44px;
+
+  color: #061237;
+}
+
+.Video-thumb {
+  width: 992px;
+  height: 550px;
+  left: calc(50% - 992px/2);
+  top: calc(50% - 550px/2);
+
+}
+
+.Video-smallpic {
+  /* div */
+  position: relative;
+  width: 92px;
+  height: 92px;
+  left: -92px;
+  /* bottom: -92px; */
+
+  background: #F2F3F8;
+
+}
+
+.Video-description {
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget consectetur eros. Aliquam erat volutpat. Praesent pulvinar arcu non lectus dapibus, a pulvinar mauris aliquam. */
+
+  position: relative;
+  width: 525.87px;
+  height: 108px;
+  /* left: 120px; */
+  right: -270px;
+  top: 80px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.18px;
+  color: #37456C;
 }

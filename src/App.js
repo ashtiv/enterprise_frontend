@@ -1,25 +1,15 @@
 import './App.css';
 import Header from './Header';
+import BodyC1 from './BodyC1';
+import BodyC2 from './BodyC2';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <Header />
-      <div className='body-1'>
-        <div className='body-2'>
-          <div className='body-3'>
-            <div className='body-box1'>
-              <div className='body-box-number'>99.95%</div>
-              <div className='body-box-terms'>Accuracy rate</div>
-              <div className='body-box-description'>in fulfilling orders</div>
-            </div>
-            <div className='body-box2'>
-              <div className='body-box-number'>5000+</div>
-              <div className='body-box-terms'>Ecommerce businesses</div>
-              <div className='body-box-description'>partner with Opus</div>
-            </div>
-          </div>
-        </div>
+      <div className='body-1 container'>
+        <BodyC1 />
+        <BodyC2 />
       </div>
     </div>
   );

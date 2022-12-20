@@ -1,5 +1,13 @@
+body {
+  position: relative;
+  width: 1512px;
+  height: 8811.5px;
+
+  background: #FFFFFF;
+}
+
 .App-header {
-  position: absolute;
+  position: relative;
   height: 120px;
   left: 0px;
   right: 0px;
@@ -8,7 +16,7 @@
 }
 
 .Header-lev1 {
-  position: absolute;
+  position: relative;
   width: 1120px;
   height: 50px;
   left: calc(50% - 1120px/2);
@@ -60,7 +68,7 @@
 }
 
 .Header-nav {
-  position: absolute;
+  position: relative;
   width: 323.06px;
   height: 32px;
   left: 398.47px;
@@ -93,7 +101,7 @@
 }
 
 .Nav-dropdown-dots {
-  position: absolute;
+  position: relative;
   width: 14px;
   height: 14px;
   right: 10px;
@@ -144,7 +152,7 @@
 
 .Nav-dropdown-dots-text {
   appearance: none;
-  position: absolute;
+  position: relative;
   width: 13.93px;
   height: 14px;
   left: 0px;
@@ -166,7 +174,7 @@
 }
 
 .Nav-template {
-  position: absolute;
+  position: relative;
   width: 62px;
   height: 24px;
   left: 238.14px;
@@ -239,4 +247,139 @@
 
   background: #1355FF;
 
+}
+
+.body-1 {
+  position: absolute;
+  width: 1512px;
+  height: 6723px;
+  left: 0px;
+  top: 1287.5px;
+}
+
+.body-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 96px 196px;
+
+  position: absolute;
+  width: 1512px;
+  height: 352px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+}
+
+.body-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 1120px;
+  height: 160px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.body-box1 {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 160px;
+  /* Inside auto layout */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.body-box2 {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 160px;
+  /* Inside auto layout */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.body-box-number {
+  position: relative;
+  width: 133px;
+  height: 48px;
+  /* left: calc(50% - 133px/2 - 0.27px); */
+  /* top: calc(50% - 48px/2 - 41px); */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 48px;
+
+  /* identical to box height, or 130% */
+  display: flex;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: -1.2px;
+  margin: auto;
+  color: #061237;
+}
+
+.body-box-terms {
+  position: relative;
+  width: 200px;
+  height: 32px;
+  /* left: calc(50% - 105px/2 + 0.17px); */
+  /* top: calc(50% - 32px/2 + 8px); */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: -0.16px;
+
+  color: #061237;
+}
+
+.body-box-description {
+  position: relative;
+  width: 127px;
+  height: 32px;
+  /* left: calc(50% - 127px/2 + 0.16px); */
+  /* top: calc(50% - 32px/2 + 40px); */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: -0.16px;
+
+  color: #67718E;
 }

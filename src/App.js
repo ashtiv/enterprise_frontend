@@ -6,9 +6,9 @@ import BodyC3 from './BodyC3';
 
 function App() {
   return (
-    <div className="App container">
+    <div className='container'>
       <Header />
-      <div className='body-1 container'>
+      <div className='body-1 container mx-auto'>
         <BodyC1 />
         <BodyC2 />
         <BodyC3 />

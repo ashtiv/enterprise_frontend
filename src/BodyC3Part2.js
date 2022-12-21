@@ -13,7 +13,6 @@ function BodyC3Part2() {
                     </text>
                 </div>
                 <div>
-
                 </div>
             </div>
             <div className='BodyC3Part2-bg2'>

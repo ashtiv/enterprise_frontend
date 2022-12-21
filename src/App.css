@@ -7,6 +7,10 @@
   background: rgba(255, 255, 255, 0.96);
 }
 
+.hover-point:hover {
+  cursor: pointer;
+}
+
 .Header-lev1 {
   /* position: relative; */
   width: 1120px;
@@ -542,4 +546,128 @@
   align-items: center;
   letter-spacing: -0.18px;
   color: #37456C;
+}
+
+.BodyC3Part1-main {
+  /* width: 588px; */
+  height: 600px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BodyC3Part1-white-image {
+  width: 64px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+
+  background: #F7F9FC;
+}
+
+.BodyC3-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 42px;
+
+  width: 1120px;
+  height: 600px;
+  left: 196px;
+  top: 1548px;
+
+
+}
+
+.BodyC3Part1-heading {
+  width: 377.29px;
+  height: 115px;
+  left: 0px;
+  top: 94px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 56px;
+
+  /* or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.44px;
+
+  color: #061237;
+
+
+}
+
+.BodyC3Part1-description {
+  width: 498.33px;
+  height: 128px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* or 200% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.16px;
+
+  color: #37456C;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BodyC3Part1-learn-more {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 42.0781px 13px 41px;
+
+  width: 157.08px;
+  height: 48px;
+
+  background: #1355FF;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.BodyC3Part1-learn-more-text {
+  width: 74px;
+  height: 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.28px;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
 }

@@ -21,7 +21,7 @@ function Header() {
                         {/* three dots not showing */}
                     </select>
                     <div className='Nav-overview mx-5 container'>Template</div>
-                    <div className='Header-a conatiner'><text className='Header-contact'>Contact us</text></div>
+                    <div className='Header-a conatiner hover-point'><text className='Header-contact'>Contact us</text></div>
                 </nav>
 
             </div>
